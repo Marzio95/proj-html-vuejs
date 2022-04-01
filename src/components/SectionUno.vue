@@ -104,18 +104,20 @@ export default {
   left: 17rem;
   top: 3rem;
   overflow: hidden;
+  z-index: 1;
 }
 .monkey {
   position: absolute;
   left: 6rem;
   bottom: 3rem;
   overflow: hidden;
+  z-index: 2;
 }
 .afro {
   position: absolute;
-  right: 0rem;
+  right: -3rem;
   bottom: 0rem;
-  overflow: hidden;
+  z-index: 0;
 }
 .martin {
   position: absolute;
