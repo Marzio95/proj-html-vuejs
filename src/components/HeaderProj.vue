@@ -8,7 +8,7 @@
       <button class="ticket">Get ticket</button>
     </div>
     <nav class="navbar">
-      <img class="logo" src="../assets/images/dark-logo.png" alt="" />
+      <img class="logo" src="../assets/images/dark-logo.png" alt="Logo" />
       <ul class="list_nav">
         <li v-for="element in arrayNav" :key="element">{{ element }}</li>
       </ul>
