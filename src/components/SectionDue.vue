@@ -53,6 +53,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.section {
+  background-image: url(../assets/images/maxcoach-shape-03.png);
+  background-position-y: bottom;
+}
 .top_section {
   text-align: center;
 }
@@ -66,7 +70,17 @@ export default {
   margin-bottom: 3rem;
 }
 .bottom_section {
-  width: 70%;
+  width: 80%;
   margin: auto;
+  display: flex;
+}
+.card {
+  padding: 1rem;
+}
+.bottom_section .card:last-child {
+  margin-bottom: -5rem;
+}
+h4 {
+  margin: 1rem 0;
 }
 </style>
