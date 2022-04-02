@@ -61,6 +61,7 @@ export default {
   text-align: center;
 }
 .particular_text {
+  margin-top: 3rem;
   color: #029fcc;
   font-family: "Monsieur La Doulaise", cursive;
   font-size: 3rem;
