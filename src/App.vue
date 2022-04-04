@@ -40,4 +40,7 @@ a {
   text-decoration: none;
   color: black;
 }
+#app {
+  min-width: 1370px;
+}
 </style>

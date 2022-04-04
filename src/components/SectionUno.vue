@@ -73,6 +73,7 @@ export default {
 .center_section {
   width: 30%;
   text-align: center;
+  z-index: 9000;
 }
 .right_section {
   width: 35%;
