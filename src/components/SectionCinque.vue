@@ -6,6 +6,7 @@
     </div>
     <div class="row">
       <div
+        @click="funzioneCambio(index)"
         class="card"
         v-for="(card, index) in arrayCard"
         :key="index"
@@ -96,6 +97,7 @@ section {
   background-color: white;
   padding: 3rem;
   opacity: 0.4;
+  cursor: pointer;
 }
 .card_active {
   width: 30%;
@@ -104,6 +106,7 @@ section {
   background-color: white;
   padding: 3rem;
   opacity: 1;
+  cursor: pointer;
 }
 p {
   margin: 2rem 0;
