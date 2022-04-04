@@ -5,7 +5,12 @@
       <h2>Why do people love me?</h2>
     </div>
     <div class="row">
-      <div class="card" v-for="card in arrayCard" :key="card.title">
+      <div
+        class="card"
+        v-for="(card, index) in arrayCard"
+        :key="index"
+        :class="activeIndex == index ? 'card_active' : 'card'"
+      >
         <h3>{{ card.title }}</h3>
         <p>{{ card.text }}</p>
         <div class="inline">
@@ -19,9 +24,10 @@
     </div>
     <div class="row_points">
       <div
-        class="point"
+        @click="funzioneCambio(index)"
         v-for="(point, index) in arrayPoints"
-        :key="index"
+        :key="point"
+        :class="activeIndex == index ? 'point_active' : 'point'"
       ></div>
     </div>
   </section>
@@ -32,6 +38,8 @@ export default {
   name: "SectionCinque",
   data() {
     return {
+      activeIndex: 1,
+
       arrayCard: [
         {
           title: "It's a choice of quality for people with special needs",
@@ -56,8 +64,13 @@ export default {
           role: "/ IT Specialist",
         },
       ],
-      arrayPoints: [1, 2, 3],
+      arrayPoints: ["a", "b", "c"],
     };
+  },
+  methods: {
+    funzioneCambio(index) {
+      this.activeIndex = index;
+    },
   },
 };
 </script>
@@ -82,6 +95,15 @@ section {
   margin: 2rem;
   background-color: white;
   padding: 3rem;
+  opacity: 0.4;
+}
+.card_active {
+  width: 30%;
+  height: 330px;
+  margin: 2rem;
+  background-color: white;
+  padding: 3rem;
+  opacity: 1;
 }
 p {
   margin: 2rem 0;
@@ -99,12 +121,6 @@ img {
 h6 {
   margin-top: 1rem;
 }
-.card:nth-child(1) {
-  opacity: 0.4;
-}
-.card:nth-child(3) {
-  opacity: 0.4;
-}
 .row_points {
   display: flex;
   justify-content: center;
@@ -117,11 +133,16 @@ h6 {
   border-radius: 50%;
   background-color: gray;
   margin: 0 0.5rem;
-}
-.point:nth-child(1) {
+  cursor: pointer;
   opacity: 0.4;
 }
-.point:nth-child(3) {
-  opacity: 0.4;
+.point_active {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  opacity: 1;
 }
 </style>
