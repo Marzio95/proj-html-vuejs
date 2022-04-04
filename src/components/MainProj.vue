@@ -7,6 +7,7 @@
     <SectionCinque />
     <SectionSei />
     <SectionSette />
+    <SectionOtto />
   </main>
 </template>
 
@@ -18,6 +19,7 @@ import SectionQuattro from "./SectionQuattro.vue";
 import SectionCinque from "./SectionCinque.vue";
 import SectionSei from "./SectionSei.vue";
 import SectionSette from "./SectionSette.vue";
+import SectionOtto from "./SectionOtto.vue";
 
 export default {
   components: {
@@ -28,6 +30,7 @@ export default {
     SectionCinque,
     SectionSei,
     SectionSette,
+    SectionOtto,
   },
   name: "MainProj",
 };

@@ -72,7 +72,7 @@ section {
   padding: 3rem;
   filter: brightness(0.8);
   justify-self: center;
-  margin-left: 10rem;
+  margin-left: 11rem;
 }
 .container_text {
   color: white;

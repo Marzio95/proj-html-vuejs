@@ -32,7 +32,7 @@ export default {
 
 <style scoped lang="scss">
 .section {
-  height: 500px;
+  height: 560px;
   display: flex;
 }
 .col_left {
