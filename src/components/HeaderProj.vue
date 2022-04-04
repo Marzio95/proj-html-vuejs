@@ -57,6 +57,9 @@ export default {
   background-color: #ec601c;
   width: 10rem;
 }
+.ticket:hover {
+  background-color: #b1e4f4;
+}
 .navbar {
   display: flex;
   align-items: center;

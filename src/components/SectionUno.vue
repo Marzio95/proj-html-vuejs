@@ -88,6 +88,9 @@ export default {
   background-color: #ec601c;
   width: 12rem;
 }
+.ticket:hover {
+  background-color: #b1e4f4;
+}
 .main_text {
   margin-top: 1rem;
   margin-bottom: 3rem;

@@ -145,6 +145,10 @@ button {
   font-size: 1.1rem;
   font-weight: 800;
 }
+button:hover {
+  background-color: orangered;
+  color: white;
+}
 .button_center {
   text-align: center;
 }
