@@ -14,7 +14,12 @@
           <a href="#">{{ element }}</a>
         </li>
       </ul>
-      <div>icones</div>
+      <div class="icon_flex">
+        <font-awesome-icon icon="fa-brands fa-twitter" />
+        <font-awesome-icon icon="fa-brands fa-facebook-f" />
+        <font-awesome-icon icon="fa-brands fa-instagram" />
+        <font-awesome-icon icon="fa-brands fa-linkedin" />
+      </div>
     </nav>
   </header>
 </template>
@@ -77,5 +82,10 @@ export default {
 li {
   display: inline-block;
   margin: 0 0.8rem;
+}
+.icon_flex {
+  display: flex;
+  gap: 1rem;
+  color: gray;
 }
 </style>

@@ -7,7 +7,12 @@
           <small>382 NE 191st ST # 87394 Miami, FL 33179-3899</small>
           <small>+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday)</small>
           <small>support@maxcoach.com</small>
-          <small>icons</small>
+          <div class="icon_flex">
+            <font-awesome-icon icon="fa-brands fa-twitter" />
+            <font-awesome-icon icon="fa-brands fa-facebook-f" />
+            <font-awesome-icon icon="fa-brands fa-instagram" />
+            <font-awesome-icon icon="fa-brands fa-linkedin" />
+          </div>
         </div>
 
         <div class="col">
@@ -131,5 +136,11 @@ a {
   text-align: center;
   scroll-behavior: smooth;
   font-size: 2rem;
+}
+.icon_flex {
+  display: flex;
+  gap: 1rem;
+  color: gray;
+  margin: 0.5rem 0;
 }
 </style>
