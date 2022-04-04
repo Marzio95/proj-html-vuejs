@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="header_time">
+    <div class="header_time" id="header">
       <div class="starts">
         Starts TOMORROW! Our biggest event of the year...
       </div>
@@ -10,7 +10,9 @@
     <nav class="navbar">
       <img class="logo" src="../assets/images/dark-logo.png" alt="Logo" />
       <ul class="list_nav">
-        <li v-for="element in arrayNav" :key="element">{{ element }}</li>
+        <li v-for="element in arrayNav" :key="element">
+          <a href="#">{{ element }}</a>
+        </li>
       </ul>
       <div>icones</div>
     </nav>
@@ -59,7 +61,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 4rem;
+  height: 5rem;
   width: 80%;
   margin: auto;
 }

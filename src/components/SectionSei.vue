@@ -108,11 +108,20 @@ h2 {
   padding: 0.2rem;
   margin-bottom: 2rem;
 }
+.card:hover .left {
+  border: 1px solid orangered;
+  transform: translateY(-5rem);
+  background-color: white;
+  opacity: 1;
+}
 .left {
+  padding: 1rem 0;
   padding-left: 1rem;
-  margin-top: 1rem;
   opacity: 0.8;
-  width: 80%;
+  width: 73%;
+  border: 1px solid transparent;
+  height: 150px;
+  background-color: white;
 }
 img {
   width: 300px;

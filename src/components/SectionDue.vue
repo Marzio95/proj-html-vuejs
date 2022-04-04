@@ -56,9 +56,11 @@ export default {
 .section {
   background-image: url(../assets/images/maxcoach-shape-03.png);
   background-position-y: bottom;
+  min-height: 440px;
 }
 .top_section {
   text-align: center;
+  margin: 3rem 0;
 }
 .main_text {
   margin-top: 1rem;

@@ -39,8 +39,14 @@ input {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid white;
-  width: 20rem;
+  width: 25rem;
   height: 2rem;
+  color: white;
+  font-size: 1.3rem;
+}
+textarea:focus,
+input:focus {
+  outline: none;
 }
 input::placeholder {
   color: white;
