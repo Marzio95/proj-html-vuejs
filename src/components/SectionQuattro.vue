@@ -4,6 +4,7 @@
     <img class="center" src="../assets/images/icon-youtube-play.png" alt="" />
     <img class="right" src="../assets/images/maxcoach-shape-12.png" alt="" />
     <img class="left" src="../assets/images/maxcoach-shape-12.png" alt="" />
+    <div class="circle"></div>
   </div>
 </template>
 
@@ -35,5 +36,15 @@ export default {
   top: 0;
   left: 10rem;
   z-index: -1;
+}
+.circle {
+  width: 5rem;
+  height: 5rem;
+  border: 8px solid orange;
+  border-radius: 50%;
+  position: absolute;
+  top: 4rem;
+  right: 13.5rem;
+  z-index: -2;
 }
 </style>

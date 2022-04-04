@@ -53,11 +53,6 @@ export default {
   align-items: center;
   margin-right: 2rem;
 }
-.particular_text {
-  color: #029fcc;
-  font-family: "Monsieur La Doulaise", cursive;
-  font-size: 2rem;
-}
 h1 {
   margin: 2.5rem 0;
   font-size: 2.5rem;

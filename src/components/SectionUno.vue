@@ -60,7 +60,7 @@ export default {
 
 <style scoped lang="scss">
 .container {
-  min-height: 600px;
+  min-height: 700px;
   display: flex;
   align-items: center;
   background-color: #faf8f5;
@@ -87,11 +87,6 @@ export default {
   font-weight: 600;
   background-color: #ec601c;
   width: 12rem;
-}
-.particular_text {
-  color: #029fcc;
-  font-family: "Pacifico", cursive;
-  font-size: 3rem;
 }
 .main_text {
   margin-top: 1rem;

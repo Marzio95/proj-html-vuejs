@@ -60,12 +60,6 @@ export default {
 .top_section {
   text-align: center;
 }
-.particular_text {
-  margin-top: 3rem;
-  color: #029fcc;
-  font-family: "Monsieur La Doulaise", cursive;
-  font-size: 3rem;
-}
 .main_text {
   margin-top: 1rem;
   margin-bottom: 3rem;

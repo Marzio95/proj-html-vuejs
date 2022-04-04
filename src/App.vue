@@ -28,4 +28,12 @@ export default {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+.particular_text {
+  color: #029fcc;
+  font-family: "Monsieur La Doulaise", cursive;
+  font-size: 2rem;
+}
+button {
+  cursor: pointer;
+}
 </style>
