@@ -40,7 +40,7 @@
     </div>
     <div class="edits">
       <small class="credits"> 2020 Maxcoach, All Rights Reserved</small>
-      <a class="up" href="#header">UP</a>
+      <a class="up" href="#header">&#8593;</a>
     </div>
   </footer>
 </template>
@@ -124,11 +124,12 @@ a {
   color: white;
   width: 4rem;
   height: 4rem;
-  line-height: 4rem;
+  line-height: 3.6rem;
   border-radius: 50%;
   border: none;
   text-decoration: none;
   text-align: center;
   scroll-behavior: smooth;
+  font-size: 2rem;
 }
 </style>
