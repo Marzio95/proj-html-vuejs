@@ -8,11 +8,15 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faFileLines } from "@fortawesome/free-regular-svg-icons";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
 
 library.add(faTwitter);
 library.add(faFacebookF);
 library.add(faLinkedin);
 library.add(faInstagram);
+library.add(faFileLines);
+library.add(faUser);
 
 Vue.config.productionTip = false;
 Vue.component("font-awesome-icon", FontAwesomeIcon);

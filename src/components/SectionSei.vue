@@ -10,7 +10,15 @@
         <div class="left">
           <div class="price">{{ card.price }}</div>
           <h3>{{ card.title }}</h3>
-          <small>{{ card.lessons }} {{ card.students }}</small>
+          <small
+            ><font-awesome-icon
+              class="icon"
+              icon="fa-regular fa-file-lines"
+            />{{ card.lessons }}
+            <font-awesome-icon class="icon_right" icon="fa-regular fa-user" />{{
+              card.students
+            }}</small
+          >
         </div>
       </div>
     </div>
@@ -151,5 +159,11 @@ button:hover {
 }
 .button_center {
   text-align: center;
+}
+.icon {
+  margin-right: 0.5rem;
+}
+.icon_right {
+  margin: 0 0.5rem;
 }
 </style>
