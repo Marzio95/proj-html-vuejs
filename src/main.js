@@ -10,6 +10,8 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faFileLines } from "@fortawesome/free-regular-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { faCalendar } from "@fortawesome/free-regular-svg-icons";
+import { faEye } from "@fortawesome/free-regular-svg-icons";
 
 library.add(faTwitter);
 library.add(faFacebookF);
@@ -17,6 +19,8 @@ library.add(faLinkedin);
 library.add(faInstagram);
 library.add(faFileLines);
 library.add(faUser);
+library.add(faCalendar);
+library.add(faEye);
 
 Vue.config.productionTip = false;
 Vue.component("font-awesome-icon", FontAwesomeIcon);

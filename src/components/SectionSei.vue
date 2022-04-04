@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="button_center">
-      <button>View all courses</button>
+      <button>View all courses <span class="arrow">&#8594;</span></button>
     </div>
   </section>
 </template>
@@ -151,6 +151,10 @@ button {
   width: 14rem;
   border: none;
   font-size: 1.1rem;
+  font-weight: 800;
+}
+.arrow {
+  font-size: 1.2rem;
   font-weight: 800;
 }
 button:hover {

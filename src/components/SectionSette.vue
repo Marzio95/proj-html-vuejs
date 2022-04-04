@@ -18,7 +18,13 @@
         <div class="card_text">
           <div>{{ card.artist }}</div>
           <h3>{{ card.text }}</h3>
-          <small>{{ card.calendar }} {{ card.views }}</small>
+          <small
+            ><font-awesome-icon class="icon" icon="fa-regular fa-calendar" />
+            {{ card.calendar }}
+            <font-awesome-icon class="icon_right" icon="fa-regular fa-eye" />{{
+              card.views
+            }}</small
+          >
         </div>
       </div>
     </div>
@@ -128,5 +134,12 @@ a {
   color: orangered;
   font-weight: 600;
   text-decoration: none;
+}
+.icon {
+  margin-right: 0.4rem;
+}
+.icon_right {
+  margin-left: 1rem;
+  margin-right: 0.7rem;
 }
 </style>
