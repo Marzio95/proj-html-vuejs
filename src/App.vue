@@ -1,5 +1,11 @@
 <template>
   <div id="app">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap"
+      rel="stylesheet"
+    />
     <HeaderProj />
     <MainProj />
     <FooterProj />
@@ -27,11 +33,12 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 .particular_text {
   color: #029fcc;
   font-family: "Monsieur La Doulaise", cursive;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 button {
   cursor: pointer;

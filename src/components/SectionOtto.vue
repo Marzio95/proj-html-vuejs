@@ -72,7 +72,7 @@ export default {
 <style scoped lang="scss">
 .center {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 0rem;
   padding-top: 3rem;
   margin-bottom: 2rem;
 }

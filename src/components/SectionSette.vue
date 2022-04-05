@@ -63,7 +63,7 @@ export default {
 <style scoped lang="scss">
 section {
   background-color: #f4f0ef;
-  height: 950px;
+  height: 1020px;
 }
 .center {
   text-align: center;
