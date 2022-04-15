@@ -30,7 +30,8 @@
     <div class="center_section">
       <div class="particular_text">Hello Im Martin</div>
       <h2 class="main_text">Artist Coaching And Mentoring Might Be for You.</h2>
-      <button class="ticket">Get started today</button>
+      <!-- <button class="ticket">Get started today</button> -->
+      <button-orange class="button_plus" :text="text"></button-orange>
     </div>
     <div class="righ_section">
       <img
@@ -53,8 +54,15 @@
 </template>
 
 <script>
+import ButtonOrange from "./ButtonOrange.vue";
 export default {
+  components: { ButtonOrange },
   name: "SectionUno",
+  data() {
+    return {
+      text: "Get started today",
+    };
+  },
 };
 </script>
 
@@ -80,17 +88,21 @@ export default {
   position: relative;
   height: 100%;
 }
-.ticket {
-  padding: 0.7rem;
-  color: white;
-  border: none;
-  border-radius: 7px;
-  font-weight: 600;
-  background-color: #ec601c;
-  width: 12rem;
-}
-.ticket:hover {
-  background-color: #b1e4f4;
+// .ticket {
+//   padding: 0.7rem;
+//   color: white;
+//   border: none;
+//   border-radius: 7px;
+//   font-weight: 600;
+//   background-color: #ec601c;
+//   width: 12rem;
+// }
+// .ticket:hover {
+//   background-color: #b1e4f4;
+// }
+.button_plus {
+  width: 12rem !important;
+  padding: 0.7rem !important;
 }
 .main_text {
   margin-top: 1rem;

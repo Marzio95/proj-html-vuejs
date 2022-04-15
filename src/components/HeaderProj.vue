@@ -5,7 +5,8 @@
         Starts TOMORROW! Our biggest event of the year...
       </div>
       <div id="timer"></div>
-      <button class="ticket">Get ticket</button>
+      <!-- <button class="ticket">Get ticket</button> -->
+      <button-orange :text="text"></button-orange>
     </div>
     <nav class="navbar">
       <img class="logo" src="../assets/images/dark-logo.png" alt="Logo" />
@@ -25,11 +26,14 @@
 </template>
 
 <script>
+import ButtonOrange from "./ButtonOrange.vue";
 export default {
+  components: { ButtonOrange },
   name: "HeaderProj",
   data() {
     return {
       arrayNav: ["Home", "Pages", "Courses", "Features", "Blog", "Shop"],
+      text: "Get ticket",
     };
   },
 
@@ -85,18 +89,18 @@ export default {
   margin-left: 2rem;
   margin-right: 4rem;
 }
-.ticket {
-  padding: 0.5rem;
-  color: white;
-  border: none;
-  border-radius: 7px;
-  font-weight: 600;
-  background-color: #ec601c;
-  width: 10rem;
-}
-.ticket:hover {
-  background-color: #b1e4f4;
-}
+// .ticket {
+//   padding: 0.5rem;
+//   color: white;
+//   border: none;
+//   border-radius: 7px;
+//   font-weight: 600;
+//   background-color: #ec601c;
+//   width: 10rem;
+// }
+// .ticket:hover {
+//   background-color: #b1e4f4;
+// }
 .navbar {
   display: flex;
   align-items: center;
